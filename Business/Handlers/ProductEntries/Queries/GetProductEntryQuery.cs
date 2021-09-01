@@ -19,10 +19,10 @@ namespace Business.Handlers.ProductEntries.Queries
             {
                 _storeTrafficRepository = storeTrafficRepository;
             }
-            public async Task<ProductEntryDto> Handle(GetProductEntryQuery request, CancellationToken cancellationToken)
-            {
+            //public async Task<ProductEntryDto> Handle(GetProductEntryQuery request, CancellationToken cancellationToken)
+            //{
                 
-            }
+            //}
         }
     }
 }
